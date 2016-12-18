@@ -7,7 +7,47 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>PMO Mobile App Contest</title>
+        <title>Depth Estimation</title>
+        <description></description>
+        <pubDate>Thu, 01 Sep 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/posts/depth-estimation</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/depth-estimation</guid>
+      </item>
+    
+      <item>
+        <title>Stanford Scholar</title>
+        <description>Make research more accessible by collaborating globally to learn and create short talks on influential papers.</description>
+        <pubDate>Tue, 02 Aug 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/posts/stanford-scholar</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/stanford-scholar</guid>
+      </item>
+    
+      <item>
+        <title>Interaction Design</title>
+        <description>Taking an online course on Introduction to Human Centered Design and Introduction to Design Principles by University of California, San Diego on Coursera.</description>
+        <pubDate>Mon, 01 Aug 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/posts/interaction-design</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/interaction-design</guid>
+      </item>
+    
+      <item>
+        <title>Stanford Crowd Course Initiative</title>
+        <description>Collaboratively creating courses to be published on the Stanford Platform.</description>
+        <pubDate>Sun, 01 May 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/posts/stanford-crowd-course</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/stanford-crowd-course</guid>
+      </item>
+    
+      <item>
+        <title>Reinforcement Learning with Deep-Q Learning</title>
+        <description>Training a neural network to play the Atari standard Arcade Games using only the visual frame buffer as an input.</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/posts/reinforcement-learning</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/reinforcement-learning</guid>
+      </item>
+    
+      <item>
+        <title>⭐ PMO Mobile App Contest</title>
         <description>Participating in the nationwide contest to create the official Prime Minister's Office Application.</description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/posts/pmo-mobile-application</link>
