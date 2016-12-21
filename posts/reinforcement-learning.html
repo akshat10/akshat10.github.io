@@ -102,7 +102,7 @@
           </header>
 
           <div class="article-content">
-            <p>In the past, reinforcement learning models have required the programmer to explicitly define the features to define a state space. Recent breakthroughs in deep reinforcement learning however have obviated the need for precisely defining a feature vector. This allows the models to learn feature representations optimal to the environment. This automated approach often results in better features than would be found in explicit feature representations.</p>
+            <p>In the past, reinforcement learning models have required the programmer to define the features to define a state space explicitly. Recent breakthroughs in deep reinforcement learning, however, have obviated the need for precisely defining a feature vector. This allows the models to learn feature representations optimal to the environment. This automated approach often results in better features than would be found in explicit feature representations.</p>
 
 <p>Using basic raw pixel stream as input, an agent was successfully trained to learn control policies in an Atari game environment. The fundamental model is a convolutional neural network trained with a variation of Q-learning. The Atari game environment for running simulations and training the agent is created using the OpenAI Gym platform.</p>
 
@@ -110,7 +110,7 @@
 <p>The end objective of this project was to train a neural network to play the Atari standard Arcade Games using only the visual frame buffer as an input to our model. Hence, the agent would learn to play broadly in the same way as humans, with the same visual cues and automatically identify which actions have positive/negative impacts.</p>
 
 <h2 id="procedure">Procedure</h2>
-<p>The simulations used in this project were an implementation of the famous Atari Games series on virtual environment based on the open-sourced environment called <a href="https://gym.openai.com/">Gym</a> by OpenAI. The environment by OpenAI makes is easiy for researchers to test their algorithms in environments without having to go through the hassle of creating one themselves. For this project, Ms Pacman was used and two convolutional layers were constructed along a fully connected neural network classifier to predict actions based on the current state space.</p>
+<p>The simulations used in this project were an implementation of the famous Atari Games series on the virtual environment based on the open-sourced environment called <a href="https://gym.openai.com/">Gym</a> by OpenAI. The environment by OpenAI makes it easy for researchers to test their algorithms in environments without having to go through the hassle of creating one themselves. For this project, Ms. Pacman was used and two convolutional layers were constructed along a fully connected neural network classifier to predict actions based on the current state space.</p>
 
 <figure>
   <a href="/assets/documentation/dqn/mspacman.jpg" class="fluidbox-trigger">
@@ -121,7 +121,7 @@
 
 <p><br /></p>
 <h2 id="observations-and-results">Observations and Results</h2>
-<p>The behavior of the agent was analysed during and after training as it learned to navigate the environment and avoid obstacles to achieve maximum reward. There have been certain instances where the agent shows peculiar behavior, especially when it got stuck at a local minima for the loss function. One reason for this could be that even though the agent is rewarded a score of 0.0 in such situations, the frequency of ghost attacks in corners is less than that of agent being near the center of the environment.</p>
+<p>The behavior of the agent was analyzed during and after training as it learned to navigate the environment and avoid obstacles to achieve maximum reward. There have been certain instances where the agent shows peculiar behavior, especially when it got stuck at local minima for the loss function. One reason for this could be that even though the agent is rewarded a score of 0.0 in such situations, the frequency of ghost attacks in corners is less than that of agent being near the center of the environment.</p>
 
 <figure>
   <a href="/assets/documentation/dqn/minima.PNG" class="fluidbox-trigger">
